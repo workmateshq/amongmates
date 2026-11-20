@@ -1,6 +1,6 @@
 # Among Mates
 
-Online social deduction in space for 2 to 8 mates, plus crewmate bots, played by the rules of Among Us. Play it at **https://zakrowling.github.io/amongmates/** or jump straight into the shared room at **https://zakrowling.github.io/amongmates/mate**.
+Online social deduction in space for 2 to 8 mates, plus crewmate bots, played by the rules of Among Us. Play it at **https://workmateshq.github.io/amongmates/** or jump straight into the shared room at **https://workmateshq.github.io/amongmates/mate**.
 
 Inspired by [arizkhalid/among-us-clone](https://github.com/arizkhalid/among-us-clone). All the art here is original and drawn in code.
 
@@ -15,8 +15,8 @@ Inspired by [arizkhalid/among-us-clone](https://github.com/arizkhalid/among-us-c
 - **Controls**: WASD or arrow keys to move (or drag on the ship on touch screens), hold **Shift** to run at double speed. **E** use, **R** report, **Q** kill, **V** vent, **F** sabotage, **M** map, **Esc** close. Every action also has an on-screen button.
 - **Names**: everyone gets a unique 4 to 5 letter name and their own colour when they join (player 1 is mint).
 - **Room codes**: create a room and share the 4-letter code (e.g. `WFTF`) or the invite link.
-- **Link rooms**: share a link like https://zakrowling.github.io/amongmates/mate and nobody needs a code. The first person to open it hosts and everyone else joins. If the host leaves, the next player takes over hosting, so the room stays open while anyone is in it. If whoever holds the room can't be reached, everyone moves on to the same backup room automatically and still sees the room by its usual name. Any 2 to 16 letters, numbers or dashes work as a room name.
-- **Embedding for many groups**: an app that embeds the game can give each group its own private room by passing its own session id: `https://zakrowling.github.io/amongmates/?group=<session id>`. Everyone with the same id lands in the same room, different ids never meet, and ids can be any length or characters (they're hashed into a 4-letter room code). Plain `/mate` stays one shared room.
+- **Link rooms**: share a link like https://workmateshq.github.io/amongmates/mate and nobody needs a code. The first person to open it hosts and everyone else joins. If the host leaves, the next player takes over hosting, so the room stays open while anyone is in it. If whoever holds the room can't be reached, everyone moves on to the same backup room automatically and still sees the room by its usual name. Any 2 to 16 letters, numbers or dashes work as a room name.
+- **Embedding for many groups**: an app that embeds the game can give each group its own private room by passing its own session id: `https://workmateshq.github.io/amongmates/?group=<session id>`. Everyone with the same id lands in the same room, different ids never meet, and ids can be any length or characters (they're hashed into a 4-letter room code). Plain `/mate` stays one shared room.
 - **Sound**: "Deep Work" ([`public/assets/sounds/`](public/assets/sounds/)) plays quietly on loop through each round, crossfading into itself at the end so the loop is seamless, and fades out at game over. Sound effects are synthesized with Web Audio and kept spacey rather than retro: soft sine tones and glassy chimes in a long reverb, deep swells and rushes of air (launch, kills, meeting sirens, task chimes, sabotage warnings, reactor sonar pings, vents, ejections). Music and sound-effect buttons at the top right turn each on or off; your choice is remembered on your device and only affects you.
 
 ## How it works
